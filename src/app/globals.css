@@ -14,7 +14,39 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Hide Unicorn Studio Watermark */
+[data-us-project]>a,
+.unicorn-studio-scene svg,
+.unicorn-studio-scene a,
+[href*="unicorn.studio"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Infinite Marquee Animation for Recognized By VC Section */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
 }
