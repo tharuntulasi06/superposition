@@ -35,7 +35,7 @@ export default function Contact() {
                         alt="Superposition Founders"
                         width={1200}
                         height={1200}
-                        className="w-full h-auto filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-out transform group-hover:scale-[1.02]"
+                        className="w-full h-auto transition-all duration-700 ease-out transform group-hover:scale-[1.02]"
                     />
                 </div>
             </div>

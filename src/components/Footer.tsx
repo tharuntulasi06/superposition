@@ -30,7 +30,7 @@ export default function Footer() {
                 {/* Copyright & Scroll to Top */}
                 <div className="flex items-center gap-6 shrink-0">
                     <span className="text-xs text-zinc-400 font-light">
-                        © {new Date().getFullYear()} Superposition Ltd.
+                        © {new Date().getFullYear()} Superposition PvtLtd.
                     </span>
 
                     <button

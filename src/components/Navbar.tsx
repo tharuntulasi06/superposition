@@ -4,11 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Culture", href: "/culture" },
-    { name: "Careers", href: "/careers" },
-    { name: "Investors", href: "/investors" },
-    { name: "Blog", href: "/blog" },
+    { name: "Our Business", href: "/#businesses" },
+    { name: "About", href: "/#about" },
     { name: "Contact", href: "/#contact" },
 ];
 

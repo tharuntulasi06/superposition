@@ -9,13 +9,12 @@ export default function RecognizedBy() {
         { src: "/Recognized/Abyuday.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/TNG.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/Lightspeed.png", scale: "scale-100" }, // Normal
-        { src: "/Recognized/MoIT.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/NASA.png", scale: "scale-[3.5]" }, // Increased massively
     ];
 
     // Duplicate images to create a seamless infinite scrolling effect
     // We duplicate them multiple times so the track is always full
-    const marqueeImages = [...vcImages, ...vcImages, ...vcImages, ...vcImages, ...vcImages, ...vcImages];
+    const marqueeImages = [...vcImages, ...vcImages, ...vcImages, ...vcImages];
 
     return (
         <section className="w-full pb-4 md:pb-8 pt-4 relative z-10 overflow-hidden group/marquee">
