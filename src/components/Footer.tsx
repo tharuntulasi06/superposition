@@ -21,10 +21,10 @@ export default function Footer() {
 
                 {/* Primary Footer Links */}
                 <div className="flex flex-wrap justify-center items-center gap-8 md:gap-10 font-medium text-zinc-500">
-                    <Link href="#businesses" className="hover:text-[#ea1e24] transition-colors duration-300">Our Businesses</Link>
-                    <Link href="#about" className="hover:text-[#ea1e24] transition-colors duration-300">About Us</Link>
-                    <Link href="#contact" className="hover:text-[#ea1e24] transition-colors duration-300">Contact</Link>
-                    <Link href="#" className="hover:text-[#ea1e24] transition-colors duration-300">Privacy Policy</Link>
+                    <Link href="/#businesses" className="hover:text-[#ea1e24] transition-colors duration-300">Our Businesses</Link>
+                    <Link href="/#about" className="hover:text-[#ea1e24] transition-colors duration-300">About Us</Link>
+                    <Link href="/#contact" className="hover:text-[#ea1e24] transition-colors duration-300">Contact</Link>
+                    <Link href="/privacy-policy" className="hover:text-[#ea1e24] transition-colors duration-300">Privacy Policy</Link>
                 </div>
 
                 {/* Copyright & Scroll to Top */}

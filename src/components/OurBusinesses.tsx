@@ -31,11 +31,10 @@ export default function OurBusinesses() {
 
             {/* Featured Business layout */}
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center mt-8">
-                {/* The Logo Container (ANIMATED) */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9, y: 30 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
+                    viewport={{ once: false, margin: "-100px" }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="relative w-full lg:w-3/5 h-[350px] sm:h-[450px] flex items-center justify-center"
                 >

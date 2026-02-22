@@ -20,7 +20,7 @@ export default function VisionMission() {
                     {/* Vision */}
                     <div>
                         <h2 className="text-4xl md:text-5xl font-medium text-[#111] mb-6">
-                            <span className="border-b-2 border-blue-500 pb-1">Our</span> vision
+                            <span className="border-b-2 border-[#ea1e24] pb-1">Our</span> vision
                         </h2>
                         <p className="text-[17px] text-zinc-500 leading-relaxed font-light">
                             To build a multi-venture technology parent group that creates, nurtures, and scales innovative products across diverse industries — empowering businesses, communities, and individuals through technology-driven solutions.
@@ -30,7 +30,7 @@ export default function VisionMission() {
                     {/* Mission */}
                     <div>
                         <h2 className="text-4xl md:text-5xl font-medium text-[#111] mb-6">
-                            <span className="border-b-2 border-blue-500 pb-1">Our</span> mission
+                            <span className="border-b-2 border-[#ea1e24] pb-1">Our</span> mission
                         </h2>
                         <p className="text-[17px] text-zinc-500 leading-relaxed font-light">
                             To continuously incubate and support innovative ventures through technology, collaboration, and structured growth.
@@ -44,7 +44,7 @@ export default function VisionMission() {
                       The video starts in black and white (grayscale). 
                       When hovered, the CSS smoothly transitions it into full color and scales it up slightly.
                     */}
-                    <div className="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out transform group-hover:scale-105 rounded-2xl overflow-hidden">
+                    <div className="w-full h-full transition-all duration-1000 ease-in-out transform group-hover:scale-105 rounded-2xl overflow-hidden">
                         <video
                             ref={videoRef}
                             src="/huly_laser_remix.mp4"

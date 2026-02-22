@@ -7,12 +7,10 @@ export default function RecognizedBy() {
     // Some logos (like Antler/Abyuday) might have heavy padding in their PNGs, making them look small
     const vcImages = [
         { src: "/Recognized/Abyuday.png", scale: "scale-[3.5]" }, // Increased massively
-        { src: "/Recognized/Antler.png", scale: "scale-[1.5]" }, // Decreased
-        { src: "/Recognized/IITM.png", scale: "scale-[3.5]" }, // Increased massively
+        { src: "/Recognized/TNG.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/Lightspeed.png", scale: "scale-100" }, // Normal
         { src: "/Recognized/MoIT.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/NASA.png", scale: "scale-[3.5]" }, // Increased massively
-        { src: "/Recognized/Nexus.png", scale: "scale-100" }, // Normal
     ];
 
     // Duplicate images to create a seamless infinite scrolling effect

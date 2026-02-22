@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
@@ -50,7 +51,7 @@ export default function Home() {
                             </h1>
                         </div>
 
-                        {/* Founder Note Card (using provided image structure) */}
+                        {/* Founder Connect Block (using provided image structure) */}
                         <div className="w-full flex justify-end md:pr-32 lg:pr-48">
                             <div className="flex items-center gap-6 min-w-[340px] max-w-lg cursor-pointer group">
                                 {/* The founder images */}
@@ -65,14 +66,14 @@ export default function Home() {
                                 {/* The text */}
                                 <div className="flex flex-col justify-center">
                                     <p className="text-[20px] font-medium leading-[1.3] text-[#111] mb-2">
-                                        A note from our Founders,<br />
+                                        Connect with our Founders,<br />
                                         Prasanth Gopalakrishnan &<br />
                                         Rajalingam N
                                     </p>
-                                    <div className="relative text-[16px] text-[#111] w-fit mt-2 group/btn cursor-pointer">
-                                        Read more
+                                    <Link href="/#contact" className="relative text-[16px] text-[#111] w-fit mt-2 group/btn cursor-pointer">
+                                        @Founders
                                         <span className="absolute -bottom-1 left-0 w-full h-[1.5px] bg-[#ea1e24] transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover/btn:scale-x-100" />
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function Contact() {
@@ -13,7 +14,7 @@ export default function Contact() {
                         We are actively looking to partner with ambitious founders and technologists. If you're building the infrastructure of tomorrow, we'd love to hear from you.
                     </p>
 
-                    <a href="mailto:hello@superposition.com" className="group flex items-center gap-4 w-fit">
+                    <a href="mailto:superposition26@gmail.com" className="group flex items-center gap-4 w-fit">
                         <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-[#ea1e24] transition-colors duration-300">
                             <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -21,7 +22,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col">
                             <span className="text-sm text-zinc-500 uppercase tracking-widest font-bold">Get in touch</span>
-                            <span className="text-lg md:text-xl font-medium text-white group-hover:text-[#ea1e24] transition-colors duration-300">hello@superposition.com</span>
+                            <span className="text-lg md:text-xl font-medium text-white group-hover:text-[#ea1e24] transition-colors duration-300">superposition26@gmail.com</span>
                         </div>
                     </a>
                 </div>
