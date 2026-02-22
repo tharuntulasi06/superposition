@@ -20,7 +20,7 @@ export default function OurBusinesses() {
             <div className="flex justify-between items-end mb-16">
                 <div className="max-w-3xl">
                     <h2 className="text-4xl md:text-5xl font-medium text-[#111] mb-6">
-                        <span className="border-b-2 border-blue-500 pb-1">Our</span> business
+                        <span className="border-b-2 border-[#ea1e24] pb-1">Our</span> business
                     </h2>
                     <p className="text-[17px] text-zinc-500 leading-relaxed font-light">
                         Superposition is a parent multi-venture group focused on building advanced technology sectors.
