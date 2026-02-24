@@ -13,7 +13,7 @@ export default function Footer() {
                 {/* Brand */}
                 <div className="flex items-center gap-2 shrink-0">
                     <Link href="/" className="inline-block group">
-                        <span className="font-serif italic tracking-tighter text-2xl font-bold text-[#111] group-hover:text-zinc-700 transition-colors">
+                        <span className="text-3xl font-bold tracking-tighter lowercase text-[#ea1e24] group-hover:scale-105 transition-transform duration-300 inline-block">
                             superposition<span className="text-[#ea1e24]">.</span>
                         </span>
                     </Link>
@@ -24,7 +24,6 @@ export default function Footer() {
                     <Link href="/#businesses" className="hover:text-[#ea1e24] transition-colors duration-300">Our Businesses</Link>
                     <Link href="/#about" className="hover:text-[#ea1e24] transition-colors duration-300">About Us</Link>
                     <Link href="/#contact" className="hover:text-[#ea1e24] transition-colors duration-300">Contact</Link>
-                    <Link href="/privacy-policy" className="hover:text-[#ea1e24] transition-colors duration-300">Privacy Policy</Link>
                 </div>
 
                 {/* Copyright & Scroll to Top */}

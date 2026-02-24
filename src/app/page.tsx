@@ -70,7 +70,7 @@ export default function Home() {
                                         Prasanth Gopalakrishnan &<br />
                                         Rajalingam N
                                     </p>
-                                    <Link href="/#contact" className="relative text-[16px] text-[#111] w-fit mt-2 group/btn cursor-pointer">
+                                    <Link href="https://www.linkedin.com/in/prasanth-gopalakrishnan-27995a302" target="_blank" rel="noopener noreferrer" className="relative text-[16px] text-[#111] w-fit mt-2 group/btn cursor-pointer">
                                         @Founders
                                         <span className="absolute -bottom-1 left-0 w-full h-[1.5px] bg-[#ea1e24] transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover/btn:scale-x-100" />
                                     </Link>

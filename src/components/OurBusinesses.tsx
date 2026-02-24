@@ -19,8 +19,8 @@ export default function OurBusinesses() {
             {/* Header Area */}
             <div className="flex justify-between items-end mb-16">
                 <div className="max-w-3xl">
-                    <h2 className="text-4xl md:text-5xl font-medium text-[#111] mb-6">
-                        <span className="border-b-2 border-[#ea1e24] pb-1">Our</span> business
+                    <h2 className="text-4xl md:text-5xl font-bold tracking-tighter lowercase text-[#111] mb-6">
+                        <span className="border-b-2 border-[#ea1e24] pb-1">Our</span> business.
                     </h2>
                     <p className="text-[17px] text-zinc-500 leading-relaxed font-light">
                         Superposition is a parent multi-venture group focused on building advanced technology sectors.
@@ -38,12 +38,13 @@ export default function OurBusinesses() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="relative w-full lg:w-3/5 h-[350px] sm:h-[450px] flex items-center justify-center"
                 >
-                    <div className="relative w-full h-full md:p-12">
+                    <div className="relative w-full h-full p-8 flex items-center justify-center">
                         <Image
                             src="/AakashOS.png"
                             alt="Aakash OS Logo"
-                            fill
-                            className="object-contain"
+                            width={500}
+                            height={500}
+                            className="w-full max-w-[280px] sm:max-w-[380px] h-auto object-cover rounded-[2rem] shadow-2xl"
                             unoptimized={true}
                         />
                     </div>

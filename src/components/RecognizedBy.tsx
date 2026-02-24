@@ -24,30 +24,33 @@ export default function RecognizedBy() {
                 </span>
             </div>
 
-            {/* Infinite Marquee Container with CSS Mask for perfect transparent blending */}
-            {/* Using group hover to smoothly decelerate the animation */}
+            {/* Stationary Wrapper with CSS Mask for perfect transparent blending */}
             <div
-                className="flex w-fit animate-marquee group-hover/marquee:[animation-duration:120s] transition-all duration-1000 items-center gap-16 md:gap-24 px-8 md:px-24"
+                className="relative flex overflow-hidden max-w-[1600px] mx-auto"
                 style={{
-                    WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
-                    maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
+                    WebkitMaskImage: 'linear-gradient(to right, transparent, black 35%, black 65%, transparent)',
+                    maskImage: 'linear-gradient(to right, transparent, black 35%, black 65%, transparent)'
                 }}
             >
-                {marqueeImages.map((image, i) => (
-                    <div
-                        key={i}
-                        className="flex-shrink-0 w-[120px] sm:w-[150px] flex items-center justify-center pointer-events-none"
-                    >
-                        <Image
-                            src={image.src}
-                            alt={`RecognizedBy ${i}`}
-                            width={160}
-                            height={80}
-                            className={`object-contain h-10 md:h-12 w-auto drop-shadow-sm ${image.scale}`}
-                            unoptimized={true}
-                        />
-                    </div>
-                ))}
+                {/* Infinite Marquee Animated Container */}
+                {/* Using group hover to smoothly decelerate the animation */}
+                <div className="flex w-fit animate-marquee group-hover/marquee:[animation-duration:120s] transition-all duration-1000 items-center gap-16 md:gap-24 px-8 md:px-24">
+                    {marqueeImages.map((image, i) => (
+                        <div
+                            key={i}
+                            className="flex-shrink-0 w-[120px] sm:w-[150px] flex items-center justify-center pointer-events-none"
+                        >
+                            <Image
+                                src={image.src}
+                                alt={`RecognizedBy ${i}`}
+                                width={160}
+                                height={80}
+                                className={`object-contain h-10 md:h-12 w-auto drop-shadow-sm ${image.scale}`}
+                                unoptimized={true}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
     );
