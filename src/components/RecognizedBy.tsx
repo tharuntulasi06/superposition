@@ -6,7 +6,6 @@ export default function RecognizedBy() {
     // Define the images along with optical scaling factors
     // Some logos (like Antler/Abyuday) might have heavy padding in their PNGs, making them look small
     const vcImages = [
-        { src: "/Recognized/Abyuday.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/TNG.png", scale: "scale-[3.5]" }, // Increased massively
         { src: "/Recognized/Lightspeed.png", scale: "scale-100" }, // Normal
         { src: "/Recognized/NASA.png", scale: "scale-[3.5]" }, // Increased massively
